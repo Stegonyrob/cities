@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import Carrousel from '../components/Home/Carousel.vue';
+import Card from '../components/card/Card.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+  <Carrousel/>
+  <Card/>
   </main>
 </template>
